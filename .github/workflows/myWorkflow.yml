@@ -29,5 +29,4 @@ jobs:
                  cd /home/ubuntu/POC &&
                  git pull origin main &&
                  mvn clean package -DskipTests &&
-                 cd /home/ubuntu &&
                  ./executar.sh "
